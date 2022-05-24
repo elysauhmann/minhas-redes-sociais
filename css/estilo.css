@@ -1,0 +1,48 @@
+/*0123456789ABCDEF*/
+@font-face {
+    font-family: Rainbow;
+    src: url(Rainbow\ in\ June.ttf);
+}
+
+:root {
+    --cor-fundo: #BFE0FF;
+    --cor-titulo: #174F75;
+    --cor-paragrafo: #1b5240;
+    --cor-link:  #50c6ff;
+    --font: Rainbow;
+}
+
+body {
+    background-color: var(--cor-fundo);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 500px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+body p {
+    color:var(--cor-paragrafo);
+    text-align: justify
+}
+
+div {
+    text-align: center;
+}
+
+h1 {
+    color: #174F75;
+    font-family: var(--font);
+
+
+}
+
+ul li a {
+    color:#174F75;
+}
+
+img {
+    border-radius: 50%;
+    border:6px solid #174F75
+}
